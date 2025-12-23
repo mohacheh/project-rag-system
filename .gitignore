@@ -1,0 +1,31 @@
+# Sicherheit: API-Keys niemals in Git!
+.env
+
+# ChromaDB-Daten (lokal, nicht ins Repo)
+chroma_db/
+
+# Python-Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtuelle Umgebungen
+.venv/
+venv/
+env/
+
+# IDE-Dateien
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
+
+# HuggingFace-Modell-Cache (groß, nicht ins Repo)
+.cache/
+
+# Test-PDFs (optional, je nach Projekt)
+# *.pdf

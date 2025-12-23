@@ -1,0 +1,52 @@
+# RAG-System – Python Dependencies
+# Generiert für Python 3.10+ / 3.11+
+#
+# Installation:
+#   pip install -r requirements.txt
+#
+# Für GPU-Beschleunigung (optional):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu118
+
+# ---------------------------------------------------------------------------
+# Core LangChain
+# ---------------------------------------------------------------------------
+langchain>=0.3.0,<0.4.0          # Haupt-Framework für LLM-Anwendungen
+langchain-core>=0.3.0,<0.4.0     # Basis-Abstraktionen (Document, BaseMessage, etc.)
+langchain-community>=0.3.0,<0.4.0 # Community-Integrationen
+
+# ---------------------------------------------------------------------------
+# Vektordatenbank
+# ---------------------------------------------------------------------------
+langchain-chroma>=0.1.4          # LangChain-Integration für ChromaDB
+chromadb>=0.5.0,<0.6.0           # Persistente Vektordatenbank (lokal)
+
+# ---------------------------------------------------------------------------
+# Embeddings
+# ---------------------------------------------------------------------------
+langchain-huggingface>=0.1.0     # LangChain-Integration für HuggingFace-Embeddings
+sentence-transformers>=3.0.0     # all-MiniLM-L6-v2 und andere Sentence-Transformer
+
+# ---------------------------------------------------------------------------
+# LLM – OpenAI
+# ---------------------------------------------------------------------------
+openai>=1.40.0,<2.0.0            # Offizieller OpenAI Python-Client (v1.x API)
+
+# ---------------------------------------------------------------------------
+# PDF-Verarbeitung
+# ---------------------------------------------------------------------------
+PyMuPDF>=1.24.0                  # Schnelle PDF-Extraktion (fitz)
+
+# ---------------------------------------------------------------------------
+# Hilfsbibliotheken
+# ---------------------------------------------------------------------------
+python-dotenv>=1.0.0             # .env-Dateien laden (API-Keys sicher verwalten)
+tqdm>=4.66.0                     # Fortschrittsbalken für Embedding-Berechnung
+
+# ---------------------------------------------------------------------------
+# Optionale Dev-Dependencies (für Tests und Code-Qualität)
+# ---------------------------------------------------------------------------
+# pytest>=8.0.0                  # Unit-Tests
+# pytest-asyncio>=0.23.0         # Async-Tests
+# black>=24.0.0                  # Code-Formatter
+# ruff>=0.4.0                    # Linter (ersetzt flake8 + isort)
+# mypy>=1.10.0                   # Typ-Überprüfung
