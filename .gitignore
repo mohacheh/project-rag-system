@@ -1,3 +1,16 @@
+# Python
+__pycache__/
+.venv/
+*.py[cod]
+
+# RAG Spezifisch
+chroma_db/
+data/
+.env
+
+# OS
+.DS_Store
+
 # Sicherheit: API-Keys niemals in Git!
 .env
 
