@@ -2,7 +2,7 @@
 
 **PDF-Inquire** ist ein modulares RAG-System (Retrieval-Augmented Generation), das präzise Antworten auf Basis deiner lokalen Dokumente liefert. Durch die Kombination von **lokalen Embeddings** und **Cloud-basierten LLMs** bietet es die perfekte Balance zwischen Datenschutz, Geschwindigkeit und Kosteneffizienz.
 
----
+----
 
 ## 💡 Was ist RAG?
 
